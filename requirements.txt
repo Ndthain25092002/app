@@ -1,0 +1,6 @@
+qdrant-client
+python-telegram-bot
+python-dotenv
+pymongo
+numpy
+requests
