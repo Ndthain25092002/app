@@ -44,11 +44,26 @@ env/
 *.db
 conversation.db
 
+# Data files (do not upload)
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+*.parquet
+
 # Cache
 .pytest_cache/
 .coverage
 
-# Vector store
+# Vector store & indexes
 vectorstore/
+utils/vectorstore/
 *.index
+*.faiss
+*.bin
+
+# JSON data files (but keep .env.example, config, etc)
+data/
+datasets/
 *.json
